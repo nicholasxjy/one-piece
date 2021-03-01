@@ -21,4 +21,5 @@
     "noEmit": true
   },
   "exclude": ["node_modules"],
+  "include": ["index.d.ts", "src"]
 }

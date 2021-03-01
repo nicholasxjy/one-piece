@@ -8,7 +8,7 @@ module.exports = {
   entry: './src/OnePiece.tsx',
   output: {
     library: 'OnePiece',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs',
     filename: 'onepiece.js',
     path: path.resolve(__dirname, 'dist')
   },
