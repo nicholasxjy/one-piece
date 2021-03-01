@@ -1,4 +1,6 @@
 import React from 'react';
+import getRandomNumber from 'rnum'
+import random from 'random-number'
 
 export interface Info {
   name: string;
@@ -15,7 +17,7 @@ function Card({ info }: CardProps) {
     <div className='card'>
       <img className='avatar' src={info.avatar} alt={info.name} />
       <div className='content'>
-        <h2 className='name'>{info.name}</h2>
+        <h2 className='name'>{info.name} {getRandomNumber()}{random(5)}</h2>
         <div className='bio'>{info.bio}</div>
       </div>
     </div>

@@ -7,6 +7,7 @@ const isProd = process.env.NODE_ENV === 'production';
 module.exports = {
   mode: isProd ? 'production' : 'development',
   entry: './src/App.tsx',
+  devtool: 'source-map',
   output: {
     filename: 'onepiece.js',
     path: path.resolve(__dirname, 'dist')
