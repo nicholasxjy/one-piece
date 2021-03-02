@@ -6174,17 +6174,10 @@ querystringify@^2.1.1:
   resolved "https://tech-npm.tezign.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
   integrity sha1-M0WUG0FTy50ILY7uTNogFqmu9/Y=
 
-random-number@^1.0.8:
+random-number@1.0.8, random-number@^1.0.8:
   version "1.0.8"
   resolved "https://tech-npm.tezign.com/random-number/-/random-number-1.0.8.tgz#20f8f7d463f6b68edef142625ff9038c39caf866"
   integrity sha512-hK2NuEICECGVpMjqINbNxRMm5p5kasnG4mQdBD46fInsOZJ0Vot9QRdSlvaAmnF8GmjeEgKYoaiIuAUeAgtUFw==
-  dependencies:
-    lodash "^4.17.21"
-
-random-number@^1.0.9:
-  version "1.0.9"
-  resolved "https://tech-npm.tezign.com/random-number/-/random-number-1.0.9.tgz#fac79c5023a05455598365b83fd2d7e1ebda729d"
-  integrity sha512-4ZqFUfq3WrayZRYpbeatCtZ+MjvQcvy+mQAT0T/QPqFlPilKRnUP/WLqr+6TmrG6skWDPg0WtlJ0gX+87zai1w==
   dependencies:
     lodash "^4.17.21"
 
